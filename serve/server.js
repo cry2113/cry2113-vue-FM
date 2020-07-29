@@ -67,7 +67,7 @@ app.post('/zhuce',function(req,res){
 						makesure.mistake="2"
 					}else if(err.message == "yonghu validation failed: userTelNum: wrong1, password: wrong3, passwordSecond: wrong4"){
 						makesure.mistake="3"
-					}else if(err.message == "yonghu validation failed: userTelNum: wrong1, userEmail: wrong2"){
+					}else if(err.message == "yonghu validation failed: userTelNum: wrong1, userEmail: wrong2额愤愤愤愤"){
 						makesure.mistake="4"
 					}else if(err.message == "yonghu validation failed: userEmail: wrong2, password: wrong3"){
 						makesure.mistake="5"
